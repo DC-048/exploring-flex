@@ -1,0 +1,79 @@
+html {
+  width: 60%;
+  margin: auto;
+  background-color: rgb(19, 19, 19);
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+.title-main {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.description {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.section-area {
+  margin-bottom: 24px;
+}
+
+.area-display {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  background-color: rgb(49, 49, 49);
+  border: 2px solid rgb(71, 71, 71);
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+}
+
+.area-display-item {
+  background-color: rgb(70, 70, 70);
+  min-height: 50px;
+  width: 15%;
+  border-radius: 8px;
+}
+
+button {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.8em;
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 32px;
+  margin: 8px 0;
+}
+
+.button-justify {
+  background-color: rgb(45, 85, 172);
+}
+
+.button-justify:hover {
+  background-color: rgb(21, 56, 133);
+  cursor: pointer;
+}
+
+.button-align {
+  background-color: rgb(100, 45, 172);
+}
+
+.button-align:hover {
+  background-color: rgb(72, 24, 134);
+  cursor: pointer;
+}
+
+.btn-row {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: left;
+}
